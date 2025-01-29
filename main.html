@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Language Assistant</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0f0f0;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 40px;
+      }
+
+      .features-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 20px;
+      }
+
+      .feature-card {
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .feature-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .feature-card img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+      }
+
+      .feature-card h2 {
+        color: #007bff;
+        margin-bottom: 10px;
+      }
+
+      .feature-card p {
+        color: #666;
+        margin-bottom: 20px;
+      }
+
+      .feature-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      .feature-button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sign Language Assistant</h1>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <img src="images/sign-to-text.png" alt="Sign to Text" />
+          <h2>Sign Language to Text</h2>
+          <p>Convert sign language gestures to text using your camera</p>
+          <a href="index.html" class="feature-button">Try Now</a>
+        </div>
+
+        <div class="feature-card">
+          <img src="images/text-to-sign.png" alt="Text to Sign" />
+          <h2>Text to Sign Language</h2>
+          <p>Convert written text into sign language animations</p>
+          <a href="text-to-sign.html" class="feature-button">Try Now</a>
+        </div>
+
+        <div class="feature-card">
+          <img src="images/text-to-speech.png" alt="Text to Speech" />
+          <h2>Text to Speech</h2>
+          <p>Convert written text into spoken words</p>
+          <a href="text-to-speech.html" class="feature-button">Try Now</a>
+        </div>
+
+        <div class="feature-card">
+          <img src="images/animations.png" alt="Animations" />
+          <h2>Sign Language Animations</h2>
+          <p>Learn sign language through interactive animations</p>
+          <a href="animations.html" class="feature-button">Try Now</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
